@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "RedditSans-Italic";
+  src: url("assets/fonts/Reddit_Sans/RedditSans-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "RedditSans";
+  src: url("assets/fonts/Reddit_Sans/RedditSans-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "RedditSans";
+  src: url("assets/fonts/Reddit_Sans/RedditSans-VariableFont_wght.ttf");
+}
+.blue-600 {
+  color: #4865db;
+}
+
+html {
+  height: 100vh;
+  background: linear-gradient(180deg, #f5f5ff 72.99%, #e0e0ff 100%);
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  height: 100%;
+  width: 80%;
+  font: bold 40px/120% "RedditSans";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+header .profile_menu {
+  display: flex;
+  justify-content: center;
+}
+header .profile_menu .profile_menu__dropdown_svg {
+  width: 15px;
+  margin-left: 10px;
+}
+
+main {
+  width: 100%;
+  align-items: center;
+}
+main .greetings {
+  line-height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+main .greetings p {
+  margin: 10px 0px;
+}
+main .greetings .greetings__hello {
+  font: medium 18px 120% "RedditSans";
+  font-size: 32px;
+}
+main .greetings #grettings__date {
+  font: 18px/140% "RedditSans";
+  color: #9393b7;
+}/*# sourceMappingURL=style.css.map */
