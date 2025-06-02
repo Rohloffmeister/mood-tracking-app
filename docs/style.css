@@ -43,6 +43,8 @@ header .profile_menu .profile_menu__dropdown_svg {
 
 main {
   width: 100%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 main .greetings {
@@ -63,4 +65,18 @@ main .greetings .greetings__hello {
 main .greetings #grettings__date {
   font: 18px/140% "RedditSans";
   color: #9393b7;
+}
+main .log_mood_button {
+  background-color: #4865db;
+  color: white;
+  font: bold 20px/140% "RedditSans";
+  border: none;
+  padding: 20px 40px;
+  border-radius: 16px;
+}
+main .feelings-grid {
+  display: grid;
+}
+main .feelings-grid .feelings-grid__item {
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */
